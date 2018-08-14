@@ -1,0 +1,33 @@
+{
+  "name": "alpha-video",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/alpha-video.min.js",
+  "scripts": {
+    "serve": "npx polymer serve",
+    "watch": "npx webpack --config webpack.config.js --mode=development --watch",
+    "build": "npx webpack --config webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooldigital/alpha-video.git"
+  },
+  "author": "positlabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tooldigital/alpha-video/issues"
+  },
+  "homepage": "https://github.com/tooldigital/alpha-video#readme",
+  "devDependencies": {
+    "@polymer/lit-element": "^0.5.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "polymer-cli": "^1.7.7",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}

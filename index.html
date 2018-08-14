@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/95/three.min.js"></script>
+        <!-- <script src="./lib/alpha-video.js" type="module"></script> -->
+        <script src="./dist/alpha-video.min.js"></script>
+        <style>
+            body {
+                padding: 0; margin: 0;
+            }
+            alpha-video {
+                position: absolute;
+                top: 25%; left: 25%;
+                width: 50%; height: 50%;
+            }
+            video {
+                position: absolute;
+                width: 100%; height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+        </style>
+    </head>
+    <body>
+        <alpha-video src='videos/test.mp4' loop muted playsinline autoplay></alpha-video>
+        <video src='videos/beeple-exhaust.mp4' autoplay muted playsinline loop></video>
+    </body>
+</html>
